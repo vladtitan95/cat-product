@@ -1,0 +1,52 @@
+.catalog__button{
+  display: block;
+  font-family: inherit;
+  width: 280px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+  background-color: #68B738;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  border: none;
+  margin-top: 22px;
+  cursor: pointer;
+}
+
+.btn{
+  background-color: #F2F2F2;
+  color: #444444;
+}
+@media (min-width: 768px) {
+  .catalog__button{
+    width: 249px;
+
+  }
+.btn{
+  height: 44px;
+  margin-top: 72px;
+}
+  .catalog__button--btn{
+    width: 633px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1440px)  {
+  .catalog__button{
+    width: 169px;
+    &:focus{
+      color: #8FC46E;
+    }
+  }
+  .btn:focus{
+    color: #B9B9B9;
+  }
+  .catalog__button--btn{
+    width: 245px;
+    height: 40px;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,19 @@
+body{
+  font-family: 'Oswald', sans-serif;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+ol,ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+blockquote, figure, h1, h2, h3, h4, h5, h6, ol, p, ul {
+  margin: 0;
+}
+*::after, ::before{
+  box-sizing: border-box;
+
+}
